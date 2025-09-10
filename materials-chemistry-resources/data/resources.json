@@ -1,0 +1,665 @@
+{
+  "categories": {
+    "journals": {
+      "title": "学术期刊",
+      "icon": "fas fa-book",
+      "subcategories": {
+        "domestic": {
+          "title": "国内可访问",
+          "resources": [
+            {
+              "name": "中国科技期刊数据库",
+              "description": "中文科技期刊全文数据库",
+              "url": "https://www.cqvip.com/",
+              "tags": ["中文", "需注册"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "vpn": {
+          "title": "需科学上网",
+          "resources": [
+            {
+              "name": "Nature Materials",
+              "description": "顶级材料科学期刊，涵盖材料化学最新研究",
+              "url": "https://www.nature.com/nmat/",
+              "tags": ["英文", "高影响因子"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "Advanced Materials",
+              "description": "材料科学领域的重要期刊，发表高质量研究论文",
+              "url": "https://onlinelibrary.wiley.com/journal/15214095",
+              "tags": ["英文", "高影响因子"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "Chemistry of Materials",
+              "description": "美国化学会出版的材料化学专业期刊",
+              "url": "https://pubs.acs.org/journal/cmatex",
+              "tags": ["英文", "ACS出版"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Journal of Materials Chemistry",
+              "description": "英国皇家化学会材料化学期刊",
+              "url": "https://pubs.rsc.org/en/journals/journalissues/jm",
+              "tags": ["英文", "RSC出版"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Nature",
+              "description": "世界顶级科学期刊",
+              "url": "https://www.nature.com/",
+              "tags": ["英文", "顶级期刊"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "Science",
+              "description": "美国科学促进会发行的学术期刊",
+              "url": "https://www.science.org/",
+              "tags": ["英文", "顶级期刊"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "Cell",
+              "description": "生物学领域顶级期刊",
+              "url": "https://www.cell.com/",
+              "tags": ["英文", "生物学"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "PNAS",
+              "description": "美国国家科学院院刊",
+              "url": "https://www.pnas.org/",
+              "tags": ["英文", "综合性"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "ACS Nano",
+              "description": "纳米科学技术领域顶级期刊",
+              "url": "https://pubs.acs.org/journal/ancac3",
+              "tags": ["英文", "纳米材料"],
+              "difficulty": "高级",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    "databases": {
+      "title": "数据库",
+      "icon": "fas fa-database",
+      "subcategories": {
+        "domestic": {
+          "title": "国内可访问",
+          "resources": [
+            {
+              "name": "Aminer",
+              "description": "学者学术搜索引擎，包含部分材料数据",
+              "url": "https://www.aminer.cn/",
+              "tags": ["免费", "中英文"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "百度学术",
+              "description": "百度提供的学术资源搜索平台",
+              "url": "https://xueshu.baidu.com/",
+              "tags": ["免费", "中文"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "谷粉学术",
+              "description": "Google Scholar的镜像服务",
+              "url": "https://gfsoso.99lb.net/",
+              "tags": ["免费", "镜像站"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "AtomWork-Adv",
+              "description": "日本NIMS材料数据库",
+              "url": "https://crystdb.nims.go.jp/",
+              "tags": ["免费", "材料数据"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "arXiv",
+              "description": "预印本论文库",
+              "url": "https://arxiv.org/",
+              "tags": ["免费", "预印本"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "vpn": {
+          "title": "需科学上网",
+          "resources": [
+            {
+              "name": "Web of Science",
+              "description": "综合性学术数据库，包含材料化学相关文献",
+              "url": "https://www.webofscience.com/",
+              "tags": ["付费", "综合性"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "SciFinder",
+              "description": "化学文献和物质信息数据库",
+              "url": "https://scifinder.cas.org/",
+              "tags": ["付费", "化学专业"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "Materials Project",
+              "description": "材料科学计算数据库",
+              "url": "https://materialsproject.org/",
+              "tags": ["免费", "计算材料"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Cambridge Structural Database",
+              "description": "晶体结构数据库",
+              "url": "https://www.ccdc.cam.ac.uk/",
+              "tags": ["付费", "晶体结构"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "Google Scholar",
+              "description": "Google学术搜索引擎",
+              "url": "https://scholar.google.com",
+              "tags": ["免费", "综合搜索"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Scopus",
+              "description": "Elsevier学术数据库",
+              "url": "https://www.scopus.com/",
+              "tags": ["付费", "综合性"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "PubMed",
+              "description": "生物医学文献数据库",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/",
+              "tags": ["免费", "生物医学"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "AFLOWlib",
+              "description": "材料科学计算数据库",
+              "url": "http://aflowlib.org/",
+              "tags": ["免费", "计算材料"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "OQMD",
+              "description": "开放量子材料数据库",
+              "url": "http://oqmd.org/",
+              "tags": ["免费", "量子材料"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "ICSD",
+              "description": "无机晶体结构数据库",
+              "url": "https://icsd.fiz-karlsruhe.de/",
+              "tags": ["付费", "晶体结构"],
+              "difficulty": "高级",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    "tools": {
+      "title": "研究工具",
+      "icon": "fas fa-tools",
+      "subcategories": {
+        "domestic": {
+          "title": "国内可访问",
+          "resources": [
+            {
+              "name": "VESTA",
+              "description": "晶体结构可视化软件",
+              "url": "https://jp-minerals.org/vesta/en/",
+              "tags": ["免费", "可视化"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Avogadro",
+              "description": "分子编辑器和可视化工具",
+              "url": "https://avogadro.cc/",
+              "tags": ["开源", "分子建模"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "ResearchGate",
+              "description": "科研人员社交网络平台",
+              "url": "https://www.researchgate.net/",
+              "tags": ["免费", "学术社交"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Connected Papers",
+              "description": "论文关系图可视化工具",
+              "url": "https://www.connectedpapers.com/",
+              "tags": ["免费", "论文分析"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Dimensions",
+              "description": "学术搜索和分析平台",
+              "url": "https://www.dimensions.ai/",
+              "tags": ["免费增值", "学术分析"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "X-MOL化学",
+              "description": "化学学术资源平台",
+              "url": "https://www.x-mol.com/paper/chem",
+              "tags": ["免费", "化学专业"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "科研通导航",
+              "description": "科研工具导航网站",
+              "url": "https://www.ablesci.com/daohang",
+              "tags": ["免费", "导航站"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "科研废物导航",
+              "description": "学术资源导航平台",
+              "url": "https://www.yanweb.top/",
+              "tags": ["免费", "导航站"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "vpn": {
+          "title": "需科学上网",
+          "resources": [
+            {
+              "name": "Materials Studio",
+              "description": "材料模拟和建模软件",
+              "url": "https://www.3ds.com/products-services/biovia/products/molecular-modeling-simulation/biovia-materials-studio/",
+              "tags": ["付费", "材料模拟"],
+              "difficulty": "高级",
+              "status": "active"
+            },
+            {
+              "name": "OriginLab",
+              "description": "科学数据分析和绘图软件",
+              "url": "https://www.originlab.com/",
+              "tags": ["付费", "数据分析"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Jupyter Notebook",
+              "description": "交互式计算环境",
+              "url": "https://jupyter.org/",
+              "tags": ["开源", "编程环境"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Overleaf",
+              "description": "在线LaTeX编辑器",
+              "url": "https://www.overleaf.com/",
+              "tags": ["免费增值", "LaTeX"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Zotero",
+              "description": "文献管理软件",
+              "url": "https://www.zotero.org/",
+              "tags": ["开源", "文献管理"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Mendeley",
+              "description": "学术参考文献管理工具",
+              "url": "https://www.mendeley.com/",
+              "tags": ["免费", "文献管理"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "EndNote",
+              "description": "专业文献管理软件",
+              "url": "https://endnote.com/",
+              "tags": ["付费", "文献管理"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "ChemDraw",
+              "description": "化学结构绘图软件",
+              "url": "https://www.perkinelmer.com/category/chemdraw",
+              "tags": ["付费", "化学绘图"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "BioRender",
+              "description": "科学插图制作平台",
+              "url": "https://biorender.com/",
+              "tags": ["免费增值", "科学插图"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Sci-Hub",
+              "description": "免费学术论文获取平台",
+              "url": "https://sci-hub.se/",
+              "tags": ["免费", "论文获取"],
+              "difficulty": "初级",
+              "status": "limited"
+            }
+          ]
+        }
+      }
+    },
+    "courses": {
+      "title": "在线课程",
+      "icon": "fas fa-graduation-cap",
+      "subcategories": {
+        "domestic": {
+          "title": "国内可访问",
+          "resources": [
+            {
+              "name": "中国大学MOOC",
+              "description": "国内高校材料化学相关课程",
+              "url": "https://www.icourse163.org/",
+              "tags": ["免费", "中文课程"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "学堂在线",
+              "description": "清华大学发起的MOOC平台",
+              "url": "https://www.xuetangx.com/",
+              "tags": ["免费", "中文课程"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "vpn": {
+          "title": "需科学上网",
+          "resources": [
+            {
+              "name": "Coursera - 材料科学",
+              "description": "多所名校提供的材料科学在线课程",
+              "url": "https://www.coursera.org/courses?query=materials%20science",
+              "tags": ["免费增值", "英文课程"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "edX - 化学课程",
+              "description": "化学和材料科学相关MOOC课程",
+              "url": "https://www.edx.org/learn/chemistry",
+              "tags": ["免费增值", "英文课程"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "MIT OpenCourseWare",
+              "description": "麻省理工学院免费课程资料",
+              "url": "https://ocw.mit.edu/courses/materials-science-and-engineering/",
+              "tags": ["免费", "MIT"],
+              "difficulty": "高级",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    "communities": {
+      "title": "学术社区",
+      "icon": "fas fa-users",
+      "subcategories": {
+        "domestic": {
+          "title": "国内可访问",
+          "resources": [
+            {
+              "name": "小木虫论坛",
+              "description": "中文科研交流社区",
+              "url": "http://muchong.com/",
+              "tags": ["免费", "中文社区"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "SCI科研学术导航平台",
+              "description": "综合性科研导航平台",
+              "url": "https://sci321.com/?from_source=https://wechalet.cn",
+              "tags": ["免费", "导航平台"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "vpn": {
+          "title": "需科学上网",
+          "resources": [
+            {
+              "name": "Materials Research Society",
+              "description": "材料研究学会",
+              "url": "https://www.mrs.org/",
+              "tags": ["专业学会", "材料科学"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "American Chemical Society",
+              "description": "美国化学会",
+              "url": "https://www.acs.org/",
+              "tags": ["专业学会", "化学"],
+              "difficulty": "中级",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    "ai-assistants": {
+      "title": "AI学术助手",
+      "icon": "fas fa-robot",
+      "subcategories": {
+        "mirror": {
+          "title": "镜像站",
+          "resources": [
+            {
+              "name": "AIBox365",
+              "description": "ChatGPT中文版镜像站",
+              "url": "http://chat.aibox365.cn",
+              "tags": ["免费", "中文界面"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "ChatYY 移动端",
+              "description": "移动端ChatGPT镜像",
+              "url": "https://ai.chatyy.cn/mobile/?user_sn=55839458",
+              "tags": ["免费", "移动端"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "ChatYY 官网",
+              "description": "ChatGPT镜像服务官网",
+              "url": "https://www.chatyy.org/m/home-all",
+              "tags": ["免费", "镜像站"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "ChatGPT Free",
+              "description": "免费ChatGPT访问",
+              "url": "https://ai.chatgptfree.hk.cn/",
+              "tags": ["免费", "镜像站"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "AI Boss Chat",
+              "description": "AI聊天机器人平台",
+              "url": "https://www.aiboss.chat/chat?_userMenuKey=chat",
+              "tags": ["免费", "多模型"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "api": {
+          "title": "API中转",
+          "resources": [
+            {
+              "name": "Chat.oyok 中转平台",
+              "description": "API中转服务平台",
+              "url": "https://chat.oyok.cc/list",
+              "tags": ["付费", "API服务"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Asi.oyok 中转平台",
+              "description": "AI服务中转平台",
+              "url": "https://asi.oyok.cc/list",
+              "tags": ["付费", "API服务"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "Clauai 中转平台",
+              "description": "Claude AI中转服务",
+              "url": "https://clauai.qqyunsd.com",
+              "tags": ["付费", "Claude"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "智创聚合API",
+              "description": "多AI模型聚合API服务",
+              "url": "https://s.lconai.com/login",
+              "tags": ["付费", "聚合API"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "简易API中转站",
+              "description": "简单易用的API中转服务",
+              "url": "https://jeniya.cn/",
+              "tags": ["付费", "简易使用"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        },
+        "academic": {
+          "title": "学术AI",
+          "resources": [
+            {
+              "name": "Scispace",
+              "description": "AI驱动的学术研究助手",
+              "url": "https://scispace.com/",
+              "tags": ["免费增值", "学术专业"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Anara",
+              "description": "学术写作AI助手",
+              "url": "https://anara.com/new",
+              "tags": ["免费增值", "写作助手"],
+              "difficulty": "初级",
+              "status": "active"
+            },
+            {
+              "name": "Futurehouse 平台",
+              "description": "AI学术研究平台",
+              "url": "https://platform.futurehouse.org/",
+              "tags": ["免费", "研究平台"],
+              "difficulty": "中级",
+              "status": "active"
+            },
+            {
+              "name": "AI写作助手",
+              "description": "专业学术写作AI工具",
+              "url": "https://www.wamwuai.com/",
+              "tags": ["免费增值", "中文写作"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    "development": {
+      "title": "开发者资源",
+      "icon": "fas fa-code",
+      "subcategories": {
+        "domestic": {
+          "title": "国内可访问",
+          "resources": [
+            {
+              "name": "清华大学开源软件镜像站",
+              "description": "国内领先的开源软件镜像服务",
+              "url": "https://mirrors.tuna.tsinghua.edu.cn/",
+              "tags": ["免费", "镜像源"],
+              "difficulty": "中级",
+              "status": "active"
+            }
+          ]
+        },
+        "vpn": {
+          "title": "需科学上网",
+          "resources": [
+            {
+              "name": "GitHub",
+              "description": "全球最大的代码托管平台",
+              "url": "https://github.com/",
+              "tags": ["免费", "代码托管"],
+              "difficulty": "初级",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

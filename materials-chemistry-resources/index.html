@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材料化学学术资源导航</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-flask"></i>
+                <span>学术资源导航</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#journals" class="nav-link">学术期刊</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#databases" class="nav-link">数据库</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tools" class="nav-link">研究工具</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ai-assistants" class="nav-link">AI助手</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">在线课程</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#communities" class="nav-link">学术社区</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#development" class="nav-link">开发资源</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" onclick="toggleTheme()" title="切换主题">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>学术资源导航</h1>
+            <p>整合全球优质学术资源，助力科研工作</p>
+            <div class="search-box">
+                <input type="text" placeholder="搜索资源..." id="searchInput">
+                <button onclick="searchResources()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalResources">200+</span>
+                    <span class="stat-label">学术资源</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">专业分类</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">免费使用</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 动态生成的资源部分将在这里插入 -->
+    <div id="dynamic-sections"></div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>关于本站</h4>
+                    <p>整合全球优质学术资源，为科研工作者提供便捷的资源导航服务。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#journals">学术期刊</a></li>
+                        <li><a href="#databases">数据库</a></li>
+                        <li><a href="#ai-assistants">AI助手</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>使用说明</h4>
+                    <p>🟢 绿色标记：国内可直接访问<br>🔴 红色标记：需要科学上网</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 学术资源导航. 致力于开放科学</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+    <script src="js/resources.js"></script>
+</body>
+</html>
